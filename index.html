@@ -1,0 +1,16 @@
+<!doctype html>
+<html data-ng-app="timesSearch">
+  <head>
+    <title>
+    New York Times Search
+    </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js"></script>
+    <script src="times_search.js"></script>
+  </head>
+  <body data-ng-controller="TimesSearchCtrl">
+    <h1>Stories about Sacred Cats</h1>
+    <ul ng-repeat='story in stories'>
+      <li>{{story.title}}</li>
+    </div>
+  </body>
+</html>
